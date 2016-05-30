@@ -1,0 +1,293 @@
+/*body{
+	background: peru;
+}
+
+*{
+	border:1px solid red;
+	margin:10px;
+}
+
+header{
+	background: blue;
+
+}
+
+section {
+	background: purple;
+}
+
+article h3{
+	color:green;
+}
+
+.titulo-b{
+	background: yellow;
+}
+
+#header{
+	border:3px solid black;
+}
+
+#portada{
+border:3px solid orange;
+}
+
+#carros{
+border:3px solid brown;
+}*/
+
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Allerta', sans-serif;*/
+/*{
+	width:;
+	height:;
+	padding: 10px;
+	margin:  10px;
+	padding:10px 13px 5px 15px;
+	border:2px solid red;
+
+}*/
+
+body{
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+}
+
+
+table{
+	width: 100%;
+}
+
+th{
+	background: #273b47;
+	color: white;
+	padding: 10px 20px;
+	text-align: left;
+}
+td{
+	padding: 10px;
+}
+td{
+	padding: 20px
+}
+table, td, th{
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
+
+input, textarea{
+	outline: 0;
+}
+input:focus, textarea:focus{
+background: orange;
+}
+
+.background{
+		background-image: url('../images/maxresdefault-C.jpg');
+	background-size: cover; 
+}
+
+.button{
+	border-radius: 13px;
+border: none;
+
+	color: white;
+padding: 7px 12px;
+cursor: pointer;
+text-decoration: none;
+font-size: 18px;
+	background: #fd324e;
+background: linear-gradient(to left,#fe344e, #ff7250)
+}
+
+.titulo{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 70px;
+	margin-bottom: 0px;
+	margin-top: 70px;
+
+}
+
+.resumen{
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 0;
+}
+
+.titulo-b{
+	font-size: 44px;
+	margin-bottom: 20px;
+}
+
+.carros{
+color:#1F313C;	
+margin-bottom: 500px;
+}
+
+.carros h2{
+
+font-size: 35px;
+}
+.portada button{
+	margin-bottom: 70px;
+}
+
+.portada{
+
+	color: white;
+	padding: 20px;
+	height: 550px;
+}
+
+.menu {
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.menu li{
+	display: inline-block;
+	margin-right: 70px;
+}
+.menu a{
+	color:white;
+	text-decoration: none;
+}
+
+.logotipo{
+	display: inline-block;
+	margin-left: 0;
+}
+
+.contenedor{
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+.carro {
+margin:10px 10px 30px 10px;
+padding: 10px;
+border: 1px solid #1F313C;
+border-radius: 8px;
+}
+
+.carro ol{
+	padding: 0;
+}
+
+.derecha{
+float:right;
+position: relative;
+top:30px;
+right: 100px;
+}
+.izquierda{
+float:left;
+position: relative;
+top:20px;
+left: 40px;
+}
+
+.contenedor-carro-a{
+padding-left: 20px;
+}
+
+.contenedor-carro-b{
+	margin-left: 370px;
+	padding-left: 
+}
+.header{
+	position: relative;
+}
+.footer{
+background:#273b47;
+padding: 50px 10px;
+}
+
+.contacto{
+	/*display: flex;*/
+	width: 300px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.contacto img{
+display: block;
+}
+
+.contacto strong{
+	display:block;
+}
+
+.contacto a{
+	color:white;
+	text-decoration: none;
+margin: 10px 10px 10px 0;
+}
+
+.footer .contenedor{
+display: flex;
+justify-content: space-between;
+}
+
+
+.formulario{
+	display: flex;
+	width: 400px;
+	color: white;
+
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+.col1{
+	margin-right: 17px;
+}
+.col2{
+	align-items: flex-start;
+
+}
+
+.col2 .button{
+	margin-top: 15px;
+}
+.intereses{
+	font-size: 10px;
+}
+
+.formulario label, .sexo, .intereses{
+	margin-bottom: 10px;
+}
+
+.sexo{
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.menu li:before{
+	content: '⊚';
+	font-size: 20px;
+	line-height: 30px;
+	color: white;
+}
+
+.titulo span{
+	text-decoration: underline;
+}
+
+.tabla{
+	margin: 50px 0;
+}
+/*positions
+como gustemos con left top bottom rigth
+
+relative lo acomodamos en lugar nativo
+absolute poiscion tome el ancestro y sea relativo
+fixed posicion fija en la navegacion
+
+
+static resetear el valor*/
