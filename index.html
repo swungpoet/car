@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8"/>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
+		<title>Pagina index</title>
+		<link rel="stylesheet" href="css/car.css"/>
+	</head>
+	<body>
+
+
+		<section id="portada" class="portada background"><!-- portada -->
+		<header id="header" class="header contenedor"><!--header-->
+			<!--logotipo-->
+			<figure class="logotipo">
+			<img src="images/batman-logo.gif" width="136" height="60" alt="LOGO" />
+			</figure>
+			<!--menu-->
+			<nav class="menu">
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="index.html#carros">Coches</a>
+				</li>
+				<li>
+					<a href="precios.html">Precios</a>
+				</li>
+			</ul>
+			</nav>
+		</header>
+
+		<!-- titulo -->
+		<div class="contenedor">
+		<h1 class="titulo">Super <span>carros</span></h1>
+		<!-- resumen -->
+		<h3 class="resumen">Los mejores coches del mundo</h3>
+		<!-- boton -->
+		<a class="button" >Conoce mas</a>
+		</div>
+		</section>
+
+		<section id="carros" class="carros contenedor"><!--carros-->
+		<!-- titulo -->
+		<h2 class="titul">Nuestros coches</h2>
+		<!-- carro 1 -->
+		<article class="carro">
+
+			<img class="derecha" src="images/BugattiChiron-C.jpg" alt="cocheson" width="250" height="150"/>
+			<div class="contenedor-carro-a">
+			<h3 class="titulo-b">Lamborguini</h3>
+			<ol>
+				<li>Estilo vayaguer</li>
+						<li>Fierro puro</li>
+								<li>Incluye 
+								protector solar</li>
+			</ol>
+			</div>
+		</article>
+				<article class="carro">		<!--carro 2-->	
+			<img class="izquierda" src="images/descargar-imagenes-C.jpg" alt="coche" width="250" height="150"/>
+			<div class="contenedor-carro-b">
+			<h3 class="titulo-b">Ferrari</h3>
+			<ol>
+				<li>Estilo menstap</li>
+						<li>Fierro maziso</li>
+								<li>Incluye protector xD</li>
+			</ol>
+			</div>
+		</article>
+		</section>
+
+		<footer class="footer">
+
+			<div class="contenedor">
+
+		<div class="contacto">
+			 <img src="images/imagenes-de-carros-C.jpg" alt="logotipo blanco" height="70" width="120" />
+<br/>
+			 <a href="tel:+525529024224"><strong>Telefono: </strong><span>3024456678</span></a>
+
+			<a href="mailto:contacto@cars.com"><strong>E-mail: </strong><span>contacto@cars.com</span></a>
+		</div>
+
+			<form class="formulario">
+<div class="col1">
+				<label for="nombre">Nombre: </label>
+
+                <input type="text" required placeholder="Nombre" id="nombre" name="nombre"/>
+
+                 <label for="mail">E-mail: </label>
+
+                <input type="email" required placeholder="E-mail" id="mail" name="email"/>
+
+<div class="sexo">
+             	<label for="woman"> 
+               <input type="radio" checked id="woman" name="sexo" value="mujer">Mujer
+				</label>
+
+				<label for="man"> 
+               <input type="radio" id="man" name="sexo" value="hombre">Hombre
+				</label>
+</div>
+
+<div class="intereses">
+<label for="cotizacion">
+<input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"/>Cotizacion
+</label>
+
+<label for="reclamos">
+<input type="checkbox" id="reclamos" name="intereses" value="reclamos"/>Reclamos
+</label>
+
+<label for="comentarios">
+<input type="checkbox" id="comentarios" name="intereses" value="comentarios"/>Comentarios
+</label>
+
+<label for="otros">
+<input type="checkbox" id="otros" name="intereses" value="otros"/>Otros
+</label>
+
+</div>
+</div>
+
+<div class="col2">
+<label for="comentario">Comentarios</label>
+<textarea name="comentario" id="comentario" cols="30" rows="7"></textarea>
+<input type="submit" value="Enviar" class="button"/>
+</div>
+
+
+
+            </form>
+            </div>
+
+		</footer>
+	</body>
+</html>
